@@ -51,7 +51,7 @@ jobs:
           ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
           MIN_NONEMPTY_SEASON: "2020"
           ESPN_COOKIE_PASSTHROUGH: "1"
-        run: python scripts/espn/pull_espn_transactions.py
+        run: python ./scripts/pull_espn_transactions.py
 
       - name: Pull ESPN lineups (2015-2024)
         env:
@@ -60,7 +60,7 @@ jobs:
           END_SEASON: "2024"
           ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
           ESPN_COOKIE_PASSTHROUGH: "1"
-        run: python scripts/espn/pull_espn_lineups.py
+        run: python ./scripts/pull_espn_lineups.py
 
       - name: Pull Sleeper transactions (2025)
         env:
