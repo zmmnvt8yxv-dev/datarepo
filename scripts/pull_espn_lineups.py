@@ -43,6 +43,10 @@ def load_cookie_header(path: Path) -> str:
   raw = path.read_text(encoding="utf-8").strip().replace("\n", "").replace("\r", "")
   if not raw:
     raise RuntimeError("Cookie file is empty.")
+  if raw.lower().startswith("cookie:"):
+    raw = raw.split(":", 1)[1].strip()
+  if os.environ.get("ESPN_COOKIE_PASSTHROUGH") == "1":
+    return raw
   cookie = normalize_cookie(raw)
   if not cookie:
     raise RuntimeError("Cookie file missing espn_s2/SWID.")
