@@ -2,7 +2,6 @@ name: Refresh data_raw
 
 on:
   schedule:
-    # 11:00 PM EST (UTC-5). Adjust if you want DST-aware timing.
     - cron: "0 4 * * *"
   workflow_dispatch:
 
@@ -10,30 +9,39 @@ concurrency:
   group: refresh-datarepo
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   refresh:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
       GIT_LFS_SKIP_SMUDGE: "1"
+
     steps:
       - name: Checkout datarepo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Install Python deps
         run: |
-          python3 --version
-          python3 -m pip install --upgrade pip requests
+          python --version
+          python -m pip install --upgrade pip requests
 
       - name: Write ESPN cookie file
         env:
           ESPN_COOKIE: ${{ secrets.ESPN_COOKIE }}
         run: |
-          if [ -z "$ESPN_COOKIE" ]; then
-            echo "Missing ESPN_COOKIE secret."
-            exit 1
-          fi
+          test -n "$ESPN_COOKIE"
           printf "%s" "$ESPN_COOKIE" > "${RUNNER_TEMP}/espn_cookie.txt"
+          chmod 600 "${RUNNER_TEMP}/espn_cookie.txt"
 
       - name: Pull ESPN transactions (2015-2024)
         env:
@@ -43,7 +51,7 @@ jobs:
           ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
           MIN_NONEMPTY_SEASON: "2020"
           ESPN_COOKIE_PASSTHROUGH: "1"
-        run: python3 scripts/pull_espn_transactions.py
+        run: python scripts/pull_espn_transactions.py
 
       - name: Pull ESPN lineups (2015-2024)
         env:
@@ -52,14 +60,14 @@ jobs:
           END_SEASON: "2024"
           ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
           ESPN_COOKIE_PASSTHROUGH: "1"
-        run: python3 scripts/pull_espn_lineups.py
+        run: python scripts/pull_espn_lineups.py
 
       - name: Pull Sleeper transactions (2025)
         env:
           SLEEPER_LEAGUE_ID: "1262418074540195841"
           SEASON: "2025"
           MAX_ROUND: "18"
-        run: python3 scripts/pull_sleeper_transactions.py
+        run: python scripts/pull_sleeper_transactions.py
 
       - name: Enable Git LFS filters
         run: git lfs install --local
@@ -74,11 +82,10 @@ jobs:
       - name: Commit and push
         run: |
           if git diff --quiet --exit-code; then
-            echo "No changes to commit."
             exit 0
           fi
           git config user.name "TatnallLegacy Bot"
           git config user.email "actions@users.noreply.github.com"
           git add data_raw
-          git commit -m "Refresh data_raw (ESPN transactions/lineups + Sleeper transactions)"
-          git push origin main
+          git commit -m "Refresh data_raw (ESPN + Sleeper)"
+          git push origin HEAD:main
