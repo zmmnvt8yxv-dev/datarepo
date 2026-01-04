@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -27,16 +28,12 @@ def normalize_cookie(raw_cookie: str) -> str:
         raw = raw.split(":", 1)[1].strip()
     raw = " ".join(raw.split())
     values: dict[str, str] = {}
-    for part in raw.replace(";", " ").split():
-        if "=" in part:
-            key, value = part.split("=", 1)
-        elif ":" in part:
-            key, value = part.split(":", 1)
-        else:
-            continue
-        key = key.strip()
-        if key in {"espn_s2", "SWID"}:
-            values[key] = value.strip()
+    match_s2 = re.search(r"(?:^|[;\s])espn_s2[:=]([^\s;]+)", raw)
+    match_swid = re.search(r"(?:^|[;\s])SWID[:=]([^\s;]+)", raw)
+    if match_s2:
+        values["espn_s2"] = match_s2.group(1).strip()
+    if match_swid:
+        values["SWID"] = match_swid.group(1).strip()
     ordered = []
     if "espn_s2" in values:
         ordered.append(f"espn_s2={values['espn_s2']}")
