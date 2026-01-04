@@ -14,11 +14,11 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
     steps:
       - name: Checkout datarepo
         uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - name: Checkout TatnallLegacy
         uses: actions/checkout@v4
@@ -74,6 +74,9 @@ jobs:
         run: |
           rm -rf data_raw
           cp -R tatnalllegacy/data_raw ./data_raw
+
+      - name: Enable Git LFS filters
+        run: git lfs install --local
 
       - name: Commit and push
         run: |
