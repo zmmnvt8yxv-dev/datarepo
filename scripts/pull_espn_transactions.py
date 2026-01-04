@@ -83,6 +83,8 @@ def fetch_json(
         request_headers.update(extra_headers)
     response = session.get(url, headers=request_headers, params=params, allow_redirects=False, timeout=30)
     body = response.text
+    if response.headers.get("X-Fantasy-Role") == "NONE":
+        raise SystemExit("ESPN auth failed (X-Fantasy-Role=NONE). Check ESPN_COOKIE.")
     if response.status_code in {301, 302}:
         report_bad_response(response, body)
     content_type = response.headers.get("Content-Type", "")

@@ -45,6 +45,8 @@ def load_cookie_header(path: Path) -> str:
 def fetch_json(url, headers):
   response = requests.get(url, headers=headers, timeout=30)
   content_type = response.headers.get("content-type", "")
+  if response.headers.get("X-Fantasy-Role") == "NONE":
+    raise RuntimeError("ESPN auth failed (X-Fantasy-Role=NONE). Check ESPN_COOKIE.")
   if response.status_code in (301, 302) or "application/json" not in content_type:
     preview = response.text[:200]
     raise RuntimeError(
