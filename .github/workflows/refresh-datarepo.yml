@@ -1,0 +1,89 @@
+name: Refresh data_raw
+
+on:
+  schedule:
+    # 11:00 PM EST (UTC-5). Adjust if you want DST-aware timing.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-datarepo
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout datarepo
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Checkout TatnallLegacy
+        uses: actions/checkout@v4
+        with:
+          repository: zmmnvt8yxv-dev/TatnallLegacy
+          token: ${{ secrets.TATNALLLEGACY_TOKEN }}
+          path: tatnalllegacy
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: python -m pip install --upgrade pip requests
+
+      - name: Write ESPN cookie file
+        env:
+          ESPN_COOKIE: ${{ secrets.ESPN_COOKIE }}
+        run: |
+          if [ -z "$ESPN_COOKIE" ]; then
+            echo "Missing ESPN_COOKIE secret."
+            exit 1
+          fi
+          printf "%s" "$ESPN_COOKIE" > "${RUNNER_TEMP}/espn_cookie.txt"
+
+      - name: Pull ESPN transactions (2015-2024)
+        working-directory: tatnalllegacy
+        env:
+          ESPN_LEAGUE_ID: "1773893"
+          START_SEASON: "2015"
+          END_SEASON: "2024"
+          ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
+        run: python3 scripts/pull_espn_transactions.py
+
+      - name: Pull ESPN lineups (2015-2024)
+        working-directory: tatnalllegacy
+        env:
+          ESPN_LEAGUE_ID: "1773893"
+          START_SEASON: "2015"
+          END_SEASON: "2024"
+          ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
+        run: python3 scripts/pull_espn_lineups.py
+
+      - name: Pull Sleeper transactions (2025)
+        working-directory: tatnalllegacy
+        env:
+          SLEEPER_LEAGUE_ID: "1262418074540195841"
+          START_SEASON: "2025"
+          END_SEASON: "2025"
+        run: python3 scripts/pull_sleeper_transactions.py
+
+      - name: Replace data_raw
+        run: |
+          rm -rf data_raw
+          cp -R tatnalllegacy/data_raw ./data_raw
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "TatnallLegacy Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data_raw
+          git commit -m "Refresh data_raw (ESPN transactions/lineups + Sleeper transactions)"
+          git push origin main
