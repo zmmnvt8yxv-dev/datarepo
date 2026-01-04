@@ -20,12 +20,6 @@ jobs:
       - name: Checkout datarepo
         uses: actions/checkout@v4
 
-      - name: Checkout TatnallLegacy
-        uses: actions/checkout@v4
-        with:
-          repository: zmmnvt8yxv-dev/TatnallLegacy
-          path: tatnalllegacy
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -45,7 +39,6 @@ jobs:
           printf "%s" "$ESPN_COOKIE" > "${RUNNER_TEMP}/espn_cookie.txt"
 
       - name: Pull ESPN transactions (2015-2024)
-        working-directory: tatnalllegacy
         env:
           ESPN_LEAGUE_ID: "1773893"
           START_SEASON: "2015"
@@ -54,7 +47,6 @@ jobs:
         run: python3 scripts/pull_espn_transactions.py
 
       - name: Pull ESPN lineups (2015-2024)
-        working-directory: tatnalllegacy
         env:
           ESPN_LEAGUE_ID: "1773893"
           START_SEASON: "2015"
@@ -63,17 +55,11 @@ jobs:
         run: python3 scripts/pull_espn_lineups.py
 
       - name: Pull Sleeper transactions (2025)
-        working-directory: tatnalllegacy
         env:
           SLEEPER_LEAGUE_ID: "1262418074540195841"
           START_SEASON: "2025"
           END_SEASON: "2025"
         run: python3 scripts/pull_sleeper_transactions.py
-
-      - name: Replace data_raw
-        run: |
-          rm -rf data_raw
-          cp -R tatnalllegacy/data_raw ./data_raw
 
       - name: Enable Git LFS filters
         run: git lfs install --local
