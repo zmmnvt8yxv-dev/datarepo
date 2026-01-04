@@ -24,7 +24,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: zmmnvt8yxv-dev/TatnallLegacy
-          token: ${{ secrets.TATNALLLEGACY_TOKEN }}
           path: tatnalllegacy
 
       - name: Setup Python
