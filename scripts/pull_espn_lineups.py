@@ -10,6 +10,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "data_raw" / "espn_lineups"
+COOKIE_SUMMARY = "cookie_summary=unset"
 
 
 def normalize_cookie(raw_cookie: str) -> str:
@@ -32,6 +33,12 @@ def normalize_cookie(raw_cookie: str) -> str:
   return "; ".join(ordered)
 
 
+def summarize_cookie(cookie: str) -> str:
+  has_s2 = "espn_s2=" in cookie
+  has_swid = "SWID=" in cookie
+  return f"cookie_len={len(cookie)} has_espn_s2={has_s2} has_swid={has_swid}"
+
+
 def load_cookie_header(path: Path) -> str:
   raw = path.read_text(encoding="utf-8").strip().replace("\n", "").replace("\r", "")
   if not raw:
@@ -46,7 +53,7 @@ def fetch_json(url, headers):
   response = requests.get(url, headers=headers, timeout=30)
   content_type = response.headers.get("content-type", "")
   if response.headers.get("X-Fantasy-Role") == "NONE":
-    raise RuntimeError("ESPN auth failed (X-Fantasy-Role=NONE). Check ESPN_COOKIE.")
+    raise RuntimeError(f"ESPN auth failed (X-Fantasy-Role=NONE). {COOKIE_SUMMARY}")
   if response.status_code in (301, 302) or "application/json" not in content_type:
     preview = response.text[:200]
     raise RuntimeError(
@@ -116,6 +123,8 @@ def main():
     raise RuntimeError(f"Cookie file not found: {cookie_path}")
 
   cookie_header = load_cookie_header(cookie_path)
+  global COOKIE_SUMMARY
+  COOKIE_SUMMARY = summarize_cookie(cookie_header)
   headers = {
     "Cookie": cookie_header,
     "Accept": "application/json",

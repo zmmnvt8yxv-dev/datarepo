@@ -13,6 +13,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data_raw" / "espn_transactions"
 DEBUG_PATH = Path("/tmp/espn_tx_debug.json")
+COOKIE_SUMMARY = "cookie_summary=unset"
 HOST = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl"
 
 
@@ -40,6 +41,12 @@ def normalize_cookie(raw_cookie: str) -> str:
     if "SWID" in values:
         ordered.append(f"SWID={values['SWID']}")
     return "; ".join(ordered)
+
+
+def summarize_cookie(cookie: str) -> str:
+    has_s2 = "espn_s2=" in cookie
+    has_swid = "SWID=" in cookie
+    return f"cookie_len={len(cookie)} has_espn_s2={has_s2} has_swid={has_swid}"
 
 
 def build_headers(league_id: str, cookie: str | None) -> dict[str, str]:
@@ -84,7 +91,7 @@ def fetch_json(
     response = session.get(url, headers=request_headers, params=params, allow_redirects=False, timeout=30)
     body = response.text
     if response.headers.get("X-Fantasy-Role") == "NONE":
-        raise SystemExit("ESPN auth failed (X-Fantasy-Role=NONE). Check ESPN_COOKIE.")
+        raise SystemExit(f"ESPN auth failed (X-Fantasy-Role=NONE). {COOKIE_SUMMARY}")
     if response.status_code in {301, 302}:
         report_bad_response(response, body)
     content_type = response.headers.get("Content-Type", "")
@@ -271,9 +278,15 @@ def main() -> None:
     cookie_file = os.environ.get("ESPN_COOKIE_FILE")
     if not raw_cookie and cookie_file:
         raw_cookie = Path(cookie_file).read_text(encoding="utf-8").strip()
-    cookie = normalize_cookie(raw_cookie or "")
+    raw_cookie = raw_cookie or ""
+    if raw_cookie.lower().startswith("cookie:"):
+        raw_cookie = raw_cookie.split(":", 1)[1].strip()
+    passthrough = os.environ.get("ESPN_COOKIE_PASSTHROUGH") == "1"
+    cookie = raw_cookie.strip() if passthrough else normalize_cookie(raw_cookie)
     if not cookie:
         raise SystemExit("Missing ESPN cookie values. Provide ESPN_COOKIE or ESPN_COOKIE_FILE.")
+    global COOKIE_SUMMARY
+    COOKIE_SUMMARY = summarize_cookie(cookie)
 
     headers = build_headers(league_id, cookie)
     session = requests.Session()
