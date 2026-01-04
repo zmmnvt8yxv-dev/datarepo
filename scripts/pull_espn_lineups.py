@@ -11,11 +11,38 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "data_raw" / "espn_lineups"
 
 
+def normalize_cookie(raw_cookie: str) -> str:
+  raw = raw_cookie.strip()
+  if raw.lower().startswith("cookie:"):
+    raw = raw.split(":", 1)[1].strip()
+  raw = " ".join(raw.split())
+  values = {}
+  for part in raw.replace(";", " ").split():
+    if "=" in part:
+      key, value = part.split("=", 1)
+    elif ":" in part:
+      key, value = part.split(":", 1)
+    else:
+      continue
+    key = key.strip()
+    if key in {"espn_s2", "SWID"}:
+      values[key] = value.strip()
+  ordered = []
+  if "espn_s2" in values:
+    ordered.append(f"espn_s2={values['espn_s2']}")
+  if "SWID" in values:
+    ordered.append(f"SWID={values['SWID']}")
+  return "; ".join(ordered)
+
+
 def load_cookie_header(path: Path) -> str:
   raw = path.read_text(encoding="utf-8").strip().replace("\n", "").replace("\r", "")
   if not raw:
     raise RuntimeError("Cookie file is empty.")
-  return raw
+  cookie = normalize_cookie(raw)
+  if not cookie:
+    raise RuntimeError("Cookie file missing espn_s2/SWID.")
+  return cookie
 
 
 def fetch_json(url, headers):
@@ -112,7 +139,12 @@ def main():
         f"/segments/0/leagues/{league_id}?{urlencode(params)}"
       )
       payload = fetch_json(url, headers)
+      if not payload.get("teams") or not payload.get("members"):
+        raise RuntimeError(f"Missing team/member data for season {season} week {week}.")
       lineups = parse_lineups(payload, week)
+      min_nonempty = int(os.environ.get("MIN_NONEMPTY_SEASON", "2018"))
+      if season >= min_nonempty and len(lineups) == 0:
+        raise RuntimeError(f"No lineups returned for season {season} week {week}.")
       out_dir = OUTPUT_DIR / str(season)
       out_dir.mkdir(parents=True, exist_ok=True)
       out_path = out_dir / f"week-{week}.json"

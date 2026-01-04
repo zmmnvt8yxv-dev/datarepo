@@ -27,10 +27,13 @@ def normalize_cookie(raw_cookie: str) -> str:
         raw = raw.split(":", 1)[1].strip()
     raw = " ".join(raw.split())
     values: dict[str, str] = {}
-    for part in raw.split(";"):
-        if "=" not in part:
+    for part in raw.replace(";", " ").split():
+        if "=" in part:
+            key, value = part.split("=", 1)
+        elif ":" in part:
+            key, value = part.split(":", 1)
+        else:
             continue
-        key, value = part.split("=", 1)
         key = key.strip()
         if key in {"espn_s2", "SWID"}:
             values[key] = value.strip()
@@ -284,6 +287,9 @@ def main() -> None:
         output_path = DATA_DIR / f"transactions_{year}.json"
         write_json(output_path, payload)
         count = len(payload.get("transactions", []))
+        min_nonempty = int(os.environ.get("MIN_NONEMPTY_SEASON", "2018"))
+        if year >= min_nonempty and count == 0:
+            raise SystemExit(f"No transactions returned for season {year}.")
         by_season[str(year)] = count
         combined.extend(payload.get("transactions", []))
         print(f"Saved {count} ESPN transactions to {output_path}")

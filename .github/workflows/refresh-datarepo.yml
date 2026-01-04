@@ -57,8 +57,8 @@ jobs:
       - name: Pull Sleeper transactions (2025)
         env:
           SLEEPER_LEAGUE_ID: "1262418074540195841"
-          START_SEASON: "2025"
-          END_SEASON: "2025"
+          SEASON: "2025"
+          MAX_ROUND: "18"
         run: python3 scripts/pull_sleeper_transactions.py
 
       - name: Enable Git LFS filters
