@@ -16,6 +16,7 @@ jobs:
     timeout-minutes: 60
     env:
       GIT_LFS_SKIP_SMUDGE: "1"
+      RUNNER_TOOL_CACHE: ${{ runner.temp }}/toolcache
     steps:
       - name: Checkout datarepo
         uses: actions/checkout@v4
