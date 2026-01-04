@@ -1,0 +1,972 @@
+{
+  "season": 2019,
+  "week": 17,
+  "lineups": [
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "15825",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "16733",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3128720",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "4047365",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "12649",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3116165",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3917315",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3060022",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "15683",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3116365",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "4047650",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "4040761",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3122840",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "3059915",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "-16021",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "2979843",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "The Champ",
+      "player_id": "2576925",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3054850",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3120348",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3116385",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "2976212",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "2974858",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "13981",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "2979477",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "8439",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3046779",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3122672",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "13295",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3043275",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "13217",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3917846",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "-16025",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3821683",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Downs",
+      "player_id": "3918639",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "3116406",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "3040151",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "2573079",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "16737",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "-16017",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "15880",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "16800",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "14924",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "2980453",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "16804",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "17359",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "3128429",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "4249087",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "14876",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "15920",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "3051902",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "3127211",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Valar Morghulis",
+      "player_id": "12514",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3051392",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "2576434",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3068267",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3916387",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3045144",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3116593",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "2985659",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "2576623",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "16760",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "13983",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3121427",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "4241372",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "3916945",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "12537",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "2978109",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "17177",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Malley",
+      "player_id": "-16024",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "15795",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "2976316",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "15818",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "15835",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "3139605",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "3139477",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "2977187",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "16913",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "16790",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "2577417",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "16777",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "3052587",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "-16026",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "3128721",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "3050487",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "-16012",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Team Blow me ",
+      "player_id": "9354",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3117251",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3045147",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "2976499",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3919596",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3915416",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3912550",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3121422",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "-16023",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "11237",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3052117",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "14880",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "4047646",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "10452",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "2573401",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3049899",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "8664",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Dear Lord Please",
+      "player_id": "3139033",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "2977644",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "13982",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "16460",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "16944",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "3046439",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "3042519",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "2577327",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "2580",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "16799",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "3049916",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "15072",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "3043234",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "12483",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "-16033",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "2576414",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "2330",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Big Dick Bandito",
+      "player_id": "2976592",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3929630",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "15847",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "16731",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3043078",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "4035538",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "4045163",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "14881",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "11283",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3055899",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3115364",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3115394",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "4036348",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "-16018",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3126486",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "2969939",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3126367",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "3052876",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 17,
+      "team": "Golden Taint",
+      "player_id": "-16006",
+      "started": true,
+      "points": null
+    }
+  ]
+}

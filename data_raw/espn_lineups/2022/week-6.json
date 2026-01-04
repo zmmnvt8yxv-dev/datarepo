@@ -1,0 +1,1140 @@
+{
+  "season": 2022,
+  "week": 6,
+  "lineups": [
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "3068267",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4262921",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "3045147",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "3116365",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "3915416",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "3128429",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "3116165",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4045163",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4040761",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4242214",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4239934",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4567048",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4360310",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4241479",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4362887",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4569618",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "2980453",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "-16021",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "15864",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "12731",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of  December",
+      "player_id": "4426475",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "2977187",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "2976212",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4035538",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4241555",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4241463",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "2577417",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "3121023",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4046692",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4361370",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "3916430",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "2573079",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "3050478",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "3139033",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "-16030",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "8439",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4242335",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "3045138",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "16737",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "4259545",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "12460",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Downs",
+      "player_id": "3052117",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3126486",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3929630",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "15847",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4360294",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3139477",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4239996",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "16460",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3916148",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4360939",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4360238",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "16757",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4241474",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "-16025",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3917232",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4373626",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "2576414",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "4035687",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3917792",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Harder Kulm",
+      "player_id": "3115306",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "3116593",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4362628",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "3042519",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4427366",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4360248",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "3915511",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4374302",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "12483",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "3120348",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4426502",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "15795",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "2576434",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "-16014",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4048244",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "16339",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "3122976",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "3123076",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "2976316",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4241457",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "King of January",
+      "player_id": "4039050",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4361579",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3051392",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3932905",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3128390",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4036133",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4360438",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "14880",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "-16027",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "10621",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "-16005",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4426388",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3046779",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3916387",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3139925",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3121422",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "2573401",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4239993",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3117256",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4039359",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "4372414",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Team Hanrahan",
+      "player_id": "3910544",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3117251",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3115364",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3128720",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4047646",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4038941",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4047650",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3925347",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4040715",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3895856",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4052042",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "-16002",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4240657",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4047365",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "4426354",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "2576925",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3121427",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "-16006",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "17372",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "3929924",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Emergency Room",
+      "player_id": "-16033",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3116385",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3054850",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4241985",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3116406",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "15818",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4241372",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4241478",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "2330",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "14881",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4360234",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3040151",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3059915",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3051738",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "13981",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4361409",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "3918639",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "-16009",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4697815",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Only i can say The N word",
+      "player_id": "4361259",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "3043078",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "16800",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "4240021",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "3918298",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "4372016",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "3917315",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "16731",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "15807",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "4569173",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "2577327",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "3930086",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "15683",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "3916433",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "3119195",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "-16023",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "2468609",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "4242873",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "4243537",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "4241389",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "2976499",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 6,
+      "team": "Pompano Beach Sniper Gang",
+      "player_id": "15835",
+      "started": false,
+      "points": null
+    }
+  ]
+}

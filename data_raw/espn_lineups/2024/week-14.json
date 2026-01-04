@@ -1,0 +1,1147 @@
+{
+  "season": 2024,
+  "week": 14,
+  "lineups": [
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "16737",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4361370",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4430737",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "16800",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "2977187",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4035687",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4361741",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4596448",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4362238",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4047646",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4239996",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "3918298",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "3051876",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "15795",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "3123076",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4429275",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "3124679",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "4431452",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "-16001",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "King of December \ud83d\udc8d\ud83d\udc8d\ud83d\udc8d",
+      "player_id": "-16011",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4379399",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "3116406",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4361529",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4569618",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "3116385",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "3054850",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4612826",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "15864",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4426388",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4038815",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4032473",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "3059915",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4360516",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4360310",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "14881",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "-16016",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4429084",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4362081",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "4430027",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Tugg Speedman",
+      "player_id": "16731",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4427366",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4262921",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "3139477",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4047365",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4569173",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4035538",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4241478",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "3046779",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4426385",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4360569",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4685247",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4360438",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4429013",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4373678",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4243331",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "3915416",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "3925357",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4047650",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "4372561",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "-16022",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "MaHomelander",
+      "player_id": "3050478",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4426502",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4429615",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4430807",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3915511",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4362628",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3043078",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3916387",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4430878",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3116365",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3128720",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4373626",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4036133",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3912547",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3068267",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4360248",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "4635008",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "3916433",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "15818",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "-16012",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Team Malley",
+      "player_id": "10621",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4429160",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4374302",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4241389",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4040715",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4361307",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4362249",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4241985",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "3917315",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4426348",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "3916148",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4241474",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4567048",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4426515",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4369863",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4689936",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4258173",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "-16015",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4429025",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "2976499",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4430871",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Insane in the Achane ",
+      "player_id": "4430104",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4426354",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4036378",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4239993",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3045147",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3116165",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4361579",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3121422",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4429096",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "-16023",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "17372",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3052587",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4242335",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4432773",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4569987",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4038941",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3054212",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "2468609",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3051926",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "4429205",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "3929785",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Emergency Room",
+      "player_id": "16460",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4432577",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "3929630",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4429795",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "3126486",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4259545",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4372016",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4366031",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4432665",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "3040151",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "14880",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4040655",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "3150744",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "-16007",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4241479",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4241463",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4248528",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4430968",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "4678008",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Make-A-Wish-Kid",
+      "player_id": "-16021",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "3117251",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4595348",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "15847",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4432708",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4697815",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4428331",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "3042519",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4683062",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4431611",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "8439",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4431299",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "3953687",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "3128429",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4241416",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4048244",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4688813",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4241457",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "4426338",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "3886598",
+      "started": true,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "-16034",
+      "started": false,
+      "points": null
+    },
+    {
+      "week": 14,
+      "team": "Mayo Clinic",
+      "player_id": "-16018",
+      "started": true,
+      "points": null
+    }
+  ]
+}
