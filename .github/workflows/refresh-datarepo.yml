@@ -71,6 +71,9 @@ jobs:
       - name: Fetch missing ESPN IDs
         run: python ./scripts/fetch_missing_espn_ids.py --resume
 
+      - name: Build ESPN name map
+        run: python ./scripts/build_espn_name_map.py
+
       - name: Pull Sleeper transactions (2025)
         env:
           SLEEPER_LEAGUE_ID: "1262418074540195841"
