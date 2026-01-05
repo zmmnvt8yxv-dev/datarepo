@@ -33,7 +33,7 @@ jobs:
       - name: Install Python deps
         run: |
           python --version
-          python -m pip install --upgrade pip requests
+          python -m pip install --upgrade pip requests pandas pyarrow tqdm
 
       - name: Write ESPN cookie file
         env:
@@ -61,6 +61,15 @@ jobs:
           ESPN_COOKIE_FILE: "${{ runner.temp }}/espn_cookie.txt"
           ESPN_COOKIE_PASSTHROUGH: "1"
         run: python ./scripts/pull_espn_lineups.py
+
+      - name: Refresh ESPN athletes index
+        run: python ./scripts/pull_espn_athletes_index.py
+
+      - name: Audit ESPN IDs
+        run: python ./scripts/audit_espn_ids.py
+
+      - name: Fetch missing ESPN IDs
+        run: python ./scripts/fetch_missing_espn_ids.py --resume
 
       - name: Pull Sleeper transactions (2025)
         env:
